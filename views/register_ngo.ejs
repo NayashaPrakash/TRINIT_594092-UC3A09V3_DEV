@@ -1,0 +1,18 @@
+<%- include("partials/header"); -%>
+    <h1>Register</h1>
+    <form class="" action="/register_ngo" method="post">
+        <div class="form-group">
+            <label>Name of NGO</label>
+            <input class="form-control" type="text" name="userName">
+            <label>Create Password</label>
+            <input type="password" name="password" class="form-control">
+            <label>Registration No on <a href="https://ngodarpan.gov.in/">NGO Darpan</a></label>
+            <input type="text" name="regno" class="form-control">
+            <label>Email</label>
+            <input class="form-control" type="text" name="email">
+        </div>
+
+    </form>
+    <button class="btn btn-primary" type="submit" name="button">Register</button>
+
+    <%- include("partials/footer"); -%>
