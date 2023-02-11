@@ -1,1 +1,64 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Filter And Search</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search product name here.."
+        />
+        <button id="search">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Agriculture')">
+          Agriculture
+        </button>
+        <button class="button-value" onclick="filterProduct('Children')">
+          Children
+        </button>
+        <button class="button-value" onclick="filterProduct('Animal Husbandry, Dairying & Fisheries')">
+          Animal Husbandry, Dairying & Fisheries
+        </button>
+        <button class="button-value" onclick="filterProduct('Art & Culture')">
+          Art & Culture
+        </button>
+        
+        <br><br>
+      
+
+      </div>
+      <div id="products">
+        <div class="card Agriculture">
+          <div class="image-container">
+            <div class="container"><h5 class="product-name">PRERANA</h5></div>
+        </div>
+      </div>
+      <div class="card Children">
+        <div class="image-container">
+          <div class="container"><h5 class="product-name">ARPAN</h5></div>
+      </div>
+    </div>
+    <div class="card Agriculture">
+      <div class="image-container">
+        <div class="container"><h5 class="product-name">PRAGYA Netwok Educational Society</h5></div>
+    </div>
+  </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
