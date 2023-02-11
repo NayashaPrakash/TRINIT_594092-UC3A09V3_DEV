@@ -1,0 +1,24 @@
+
+<%- include("partials/header"); -%>
+    <h1>Register</h1>
+    <form class="" action="/register_phil" method="post">
+      <div class="form-group">
+        <label>Name</label>
+        <input class="form-control" type="text" name="userName">
+        <label>Email</label>
+        <input class="form-control" type="text" name="email">
+        <label>Create Password</label>
+        <input type="password" name="password" class="form-control">
+        <label>Preference1</label>
+        <input type="text" name="pref1" class="form-control">
+        <label>Preference2</label>
+        <input type="text" name="pref2" class="form-control">
+        <label>Preference3</label>
+        <input type="text" name="pref3" class="form-control">
+
+      </div>
+      <button class="btn btn-primary" type="submit" name="button">Submit</button>
+    </form>
+      
+
+<%- include("partials/footer"); -%>
